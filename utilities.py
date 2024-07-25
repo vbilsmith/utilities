@@ -23,5 +23,5 @@ def mad(series):
   return abs_diff_vector.median(axis='rows', numeric_only=True)
 
 def test_mad():
-  assert mad[0, 0, 0, 0] == 0
+  assert mad([0, 0, 0, 0]) == 0
   

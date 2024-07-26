@@ -1,6 +1,7 @@
 """Here is a workspace to develop new utilities for bioinformatics computing in the lab"""
 import pandas as pd
 import numpy as np
+import os
 
 """Below, I'm just showing an example of how you might split this up into pieces
 to make testing easier. I have not run this and I am not totally sure how your
